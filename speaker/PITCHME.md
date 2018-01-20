@@ -1,4 +1,4 @@
-## Black Speaker
+## Password Security
 
 ### A GitPitch Presentation Template
 
@@ -41,43 +41,6 @@ Keep yourself on track using lists within your speaker notes:
 - Supporting use case.
 - Time to delve deeper.
 
----?code=src/go/server.go&lang=golang&title=Golang File
-
-@[1,3-6](Present code found within any repo source file.)
-@[8-18](Without ever leaving your slideshow.)
-@[19-28](Using GitPitch code-presenting with (optional) annotations.)
-
-Note:
-Best to keep it simple. Try highlighting just one key message per slide.
-
----
-
-@title[JavaScript Block]
-
-<p><span class="slide-title">JavaScript Block</span></p>
-
-```javascript
-// Include http module.
-var http = require("http");
-
-// Create the server. Function passed as parameter
-// is called on every request made.
-http.createServer(function (request, response) {
-  // Attach listener on end event.  This event is
-  // called when client sent, awaiting response.
-  request.on("end", function () {
-    // Write headers to the response.
-    // HTTP 200 status, Content-Type text/plain.
-    response.writeHead(200, {
-      'Content-Type': 'text/plain'
-    });
-    // Send data and end response.
-    response.end('Hello HTTP!');
-  });
-
-// Listen on the 8080 port.
-}).listen(8080);
-```
 
 @[1,2](You can present code inlined within your slide markdown too.)
 @[9-17](Displayed using code-syntax highlighting just like your IDE.)
@@ -146,16 +109,5 @@ Note:
 Encourage questions, it's a great opportunity to
 learn from your audience.
 
----?image=assets/image/gitpitch-audience.jpg&opacity=100
 
-@title[Download this Template!]
-
-### Get your presentation started!
-### [Download this template @fa[external-link gp-download]](https://gitpitch.com/template/download/black)
-
-Note:
-
-Now it's your turn. The fastest way from idea to presentation
-is to download a GitPitch presentation template. Visit the
-Template Gallery [here](https://gitpitch.com/templates.html).
 
