@@ -8,9 +8,18 @@ JonLuca De Caro
 
 #### You've been lied to
 
-
 ---
 
+* Password security is almost entirely about entropy \*
+
+<p style="font-size: 8px">\* Mathematical password security</p>
+---
+
+The crazy part?
+
+* A lot of these are public
+
+* 16.1 Million usernames/passwords per GB (uncompressed)
 
 ---
 
