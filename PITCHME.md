@@ -2,9 +2,21 @@
 
 #### LA GitHub Field Day 2018
 
-##### JonLuca De Caro
+JonLuca De Caro
 
 ---
+
+#### You've been lied to
+
+
+---
+
+
+---
+
+### Demo
+
+Connect to `0xDEADBEEF` and navigate to 169.254.100.154
 
 
 ---
