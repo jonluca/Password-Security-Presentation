@@ -52,11 +52,12 @@ And there are some pretty bad developers out there
 - Still use SHA1
 - Still use MD5
 - Store passwords in plaintext (see: 000webhost)
+
 ---
 
-Now, this is an audience of good developers, right? |
+- Now, this is an audience of good developers, right? |
 
-You'll use PBKDF2 with HMAC-SHA512 with 1,000,000 iterations and a 1024-bit salt.
+- You'll use PBKDF2 with HMAC-SHA512 with 1,000,000 iterations and a 1024-bit salt.
 
 ---
 
@@ -66,23 +67,47 @@ You'll use PBKDF2 with HMAC-SHA512 with 1,000,000 iterations and a 1024-bit salt
 
 Password reuse is actually a much more suble issue.
 
-+++
-
 Most people use the same password for different sites
+
+--- 
+
+A *lot* of sites have been hacked. 
+
+- LinkedIn 
+- MySpace
+- Uber 
+- Equifax
+
+---
+
+Chances are good that someone has used that same password before - trying it and common variations has an extremely high success rate
+
 ---
 
 The crazy part?
 
-- A lot of these are public |
+- A lot of these are hacked databases are public |
 
-- 16.1 Million usernames/passwords per GB (uncompressed) |
+- And they have been cracked (dehashed) |
+
+- And they're relatively small (16.1M passwords/GB) |
+
+---
+
+Just to see how easy this was, I spent about an afternoon collating data from different sources, writing a parser, and inserting them into a database overnight
+
+---
+The result?
+
+- 450GB of text |
+- 240GB MongoDB |
+- 4.2 *Billion* usernames and passwords |
 
 ---
 
 ### Demo
 
 Connect to `0xDEADBEEF` and navigate to 169.254.100.154
-
 
 ---
 
