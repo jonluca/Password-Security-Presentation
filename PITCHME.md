@@ -14,7 +14,7 @@ The average American has been conditioned to use passwords that are easy for com
 
 ---
 
-Walk through average user's password selection process: 
+Let's walk through an average user's password selection process: 
 
 - Pick a password: mittens (their cat's name) |
 - Need a capital: Mittens |
@@ -42,12 +42,12 @@ A lot of these issues are just due to developers storing their passwords using w
 ---
 
 - In reality, *9.1%* of all passwords show up in the Top 1000 Common Passwords List |
-- The password "123456" accounts for 1% of all passwords |
+- The password "123456" accounts for ~1% of all passwords |
 - Small variations in the most common passwords will drastically reduce cracking times | 
 
 ---
 
-And there are some pretty bad developers out there
+And regaardless, there are still some pretty bad developers writing code
 
 - Still use SHA1
 - Still use MD5
@@ -57,7 +57,7 @@ And there are some pretty bad developers out there
 
 - Now, this is an audience of good developers, right? |
 
-- You'll use PBKDF2 with HMAC-SHA512 with 1,000,000 iterations and a 1024-bit salt.
+- You'll use PBKDF2 with HMAC-SHA512 with 1,000,000 iterations and a 1024-bit salt. |
 
 ---
 
