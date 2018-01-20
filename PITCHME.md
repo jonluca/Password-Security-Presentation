@@ -12,14 +12,20 @@ JonLuca De Caro
 
 * Password security is almost entirely about entropy \*
 
-<p style="font-size: 8px">\* Mathematical password security</p>
+* Password length is basically the only important thing
+
+The average American has been conditioned to use passwords that are easy for computers to guess, but hard for humans to remember
+
+<p style="font-size: 12px">\* Mathematical password security</p>
+
+
 ---
 
 The crazy part?
 
-* A lot of these are public
+- A lot of these are public
 
-* 16.1 Million usernames/passwords per GB (uncompressed)
+- 16.1 Million usernames/passwords per GB (uncompressed)
 
 ---
 
