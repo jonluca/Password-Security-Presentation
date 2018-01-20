@@ -61,15 +61,19 @@ And regaardless, there are still some pretty bad developers writing code
 
 ---
 
-#### Is cracking a password the only attack?
+#### But is cracking a password the only attack?
 
 ---
 
-Password reuse is actually a much more suble issue.
-
-Most people use the same password for different sites
+Password Reuse
 
 --- 
+
+- Password reuse is actually a much more suble issue.
+
+- Most people use the same password for different sites, or small variations of it |
+
+---
 
 A *lot* of sites have been hacked. 
 
@@ -110,6 +114,17 @@ The result?
 Connect to `0xDEADBEEF` and navigate to 169.254.100.154
 
 ---
+
+### Conclusion
+
+- Increasing password entropy is the only way to have a secure password - make it long and random
+
+- Use a password manager (although that might just be kicking the can down the road) |
+
+- Cycle your passwords often
+
+---
+
 
 ### Questions?
 
