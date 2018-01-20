@@ -16,7 +16,7 @@ The average American has been conditioned to use passwords that are easy for com
 
 Walk through average user's password selection process: 
 
-- Pick a password: mittens (their cat's name) |
+- Pick a password: | mittens (their cat's name) |
 - Need a capital: Mittens |
 - Need a special char: Mitten$ |
 - Need a num: Mitten$1 |
