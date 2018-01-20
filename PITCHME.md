@@ -25,7 +25,9 @@ Walk through average user's password selection process:
 
 Overall complexity? 8 characters. 
 
-Time to crack on an average desktop with a modern GPU? 9 hours (salted md5)
+Time to crack on an average desktop with a modern GPU? 
+
+*9 hours* <p style="font-size: 12px">(salted md5 - unsalted? Instantaneously)</p>
 
 ---
 
