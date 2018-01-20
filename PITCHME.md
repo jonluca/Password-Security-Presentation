@@ -105,7 +105,7 @@ The result?
 
 - 450GB of text |
 - 240GB MongoDB |
-- 4.2 *Billion* usernames and passwords |
+- 4.2 Billion usernames and passwords |
 
 ---
 
