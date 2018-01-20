@@ -23,24 +23,29 @@ Walk through average user's password selection process:
 
 ---
 
-Overall complexity? 8 characters. 
+Overall complexity? 
+
+8 characters. 
 
 Time to crack on an average desktop with a modern GPU? 
 
-*9 hours* <p style="font-size: 12px">(salted md5 - unsalted? Instantaneously)</p>
+*9 hours* <p style="font-size: 12px">(for salted md5 - unsalted? Instantaneously)</p>
 
+---
+
+And those numbers are just with brute force attempts!
+
+---
+
+In reality, *91%* of all passwords show up in the Top 1000 Passwords list
 ---
 
 * Password security is almost entirely about entropy \*
 
 * Password length is basically the only important thing
 
+<p style="font-size: 12px">\* Cryptographic password security</p>
 
-<p style="font-size: 12px">\* Mathematical password security</p>
-
----
-
-#### Is that the only attack?
 ---
 
 There are some pretty bad developers out there
@@ -49,7 +54,9 @@ There are some pretty bad developers out there
 - Still use MD5 |
 - Store passwords in plaintext |
 
---- 
+---
+
+#### Is that the only attack?
 
 ---
 
