@@ -16,10 +16,10 @@ The average American has been conditioned to use passwords that are easy for com
 
 Walk through average user's password selection process: 
 
-- Pick a password: mittens (their cat's name)
-- Need a capital: Mittens
-- Need a special char: Mitten$
-- Need a num: Mitten$1
+- Pick a password: mittens (their cat's name) |
+- Need a capital: Mittens |
+- Need a special char: Mitten$ |
+- Need a num: Mitten$1 |
 
 ---
 
@@ -43,9 +43,9 @@ Time to crack on an average desktop with a modern GPU? 9 hours (salted md5)
 
 There are some pretty bad developers out there
 
-- Still use MD5
-- Still use SHA1
-- Store passwords in plaintext
+- Still use SHA1 |
+- Still use MD5 |
+- Store passwords in plaintext |
 
 --- 
 
