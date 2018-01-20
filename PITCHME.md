@@ -37,34 +37,41 @@ And those numbers are just with brute force attempts!
 
 ---
 
-In reality, *91%* of all passwords show up in the Top 1000 Passwords list
----
-
-* Password security is almost entirely about entropy \*
-
-* Password length is basically the only important thing
-
-<p style="font-size: 12px">\* Cryptographic password security</p>
+- In reality, *9.1%* of all passwords show up in the Top 1000 Common Passwords List |
+- The password "123456" accounts for 1% of all passwords |
+- Small variations in the most common passwords will drastically reduce cracking times | 
 
 ---
 
 There are some pretty bad developers out there
 
-- Still use SHA1 |
-- Still use MD5 |
-- Store passwords in plaintext |
+- Still use SHA1
+- Still use MD5
+- Store passwords in plaintext (see: 000webhost)
+---
+
+No, this is an audience of good developers, right? |
+
+You'll use PBKDF2 with HMAC-SHA512 with 1,000,000 iterations and a 1024 salt.
 
 ---
 
-#### Is that the only attack?
+#### Is cracking a password the only attack?
 
+---
+
+Password reuse is actually a much more suble issue
+
++++
+
+Most people use the same password for different sites
 ---
 
 The crazy part?
 
-- A lot of these are public
+- A lot of these are public |
 
-- 16.1 Million usernames/passwords per GB (uncompressed)
+- 16.1 Million usernames/passwords per GB (uncompressed) |
 
 ---
 
