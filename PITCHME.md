@@ -1,3 +1,4 @@
+
 ## Password Security
 
 JonLuca De Caro
@@ -45,7 +46,7 @@ A lot of these issues are just due to developers storing their passwords using w
 
 ---
 
-And regaardless, there are still some pretty bad developers writing code
+And regardless, there are still some pretty bad developers writing code
 
 - Still use SHA1
 - Still use MD5
@@ -67,7 +68,7 @@ Password Reuse
 
 --- 
 
-- Password reuse is actually a much more suble issue.
+- Password reuse is actually a much more subtle issue.
 
 - Most people use the same password for different sites, or small variations of it |
 
