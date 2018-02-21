@@ -9,4 +9,4 @@ theme-override : assets/css/PITCHME.css
 highlight : atom-one-dark
 transition : none
 published : true
-footnote : "GitHub Field Day 2018"
+footnote : "Scope 2018"

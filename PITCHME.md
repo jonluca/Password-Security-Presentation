@@ -1,7 +1,5 @@
 ## Password Security
 
-#### LA GitHub Field Day 2018
-
 JonLuca De Caro
 
 ---
